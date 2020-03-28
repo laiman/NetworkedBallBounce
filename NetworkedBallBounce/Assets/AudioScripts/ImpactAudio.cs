@@ -21,11 +21,15 @@ public class ImpactAudio : MonoBehaviour
     private void OnEnable()
     {
         m_AudioSource = GetComponent<AudioSource>();
-        m_AudioSource.clip = OnImpactSound;
-        if (m_AudioSource.clip != null)
+        if (OnImpactSound == null)
         {
             Debug.LogWarningFormat("{0} object has no impact clip assigned. Please set in inspector", this.gameObject.name);
         }
+        else
+        {
+            m_AudioSource.clip = OnImpactSound;
+        }
+
     }
 
     private void OnCollisionEnter(Collision collision)
