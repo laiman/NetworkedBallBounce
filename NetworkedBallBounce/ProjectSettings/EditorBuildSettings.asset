@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BounceDemo.unity
+    guid: c027919351d5c534ea388f6da80ae3fc
   m_configObjects: {}

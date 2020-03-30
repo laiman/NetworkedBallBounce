@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+/// <summary>
+/// Collision audio with pitch variation.
+/// </summary>
 [RequireComponent(typeof(AudioSource))]
 public class ImpactAudio : MonoBehaviour
 {
