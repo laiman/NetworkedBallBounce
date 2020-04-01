@@ -585,4 +585,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/BounceDemo.unity
-  playerPath: C:/Users/alexa/Desktop
+  playerPath: C:/Users/alexa/Documents/build

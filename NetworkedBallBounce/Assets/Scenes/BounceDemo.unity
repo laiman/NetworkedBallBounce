@@ -1221,7 +1221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 108e8ae73a9054f4ba724e2d4e0a043a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  httpAddress: http://httpbin.org/post
+  httpAddress: https://cht.app/coordinates
   updatesPerSecond: 1
   testAddress: 8.8.8.8
 --- !u!4 &1373095135
